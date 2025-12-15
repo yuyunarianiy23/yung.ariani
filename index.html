@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV – Mahasiswa Manajemen Informasi Kesehatan</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <!-- Foto -->
+        <aside class="left">
+          <div class="avatar">
+            <img src="img/foto.jpg" alt="Foto Profil" />
+          </div>
+
+          <div class="identity">
+            <div class="name">Yuyun Ariani</div>
+            <div class="role">Mahasiswa Manajemen Informasi Kesehatan</div>
+          </div>
+
+          <div class="btn-group">
+            <button class="btn primary" id="btn-download">Download CV</button>
+            <button class="btn" id="btn-portfolio">Portofolio</button>
+            <button class="btn ghost" id="btn-contact">Kontak</button>
+          </div>
+        </aside>
+
+        <!-- Isi CV -->
+        <section class="right">
+          <div class="headline">
+            <h1>Ringkasan Profesional</h1>
+            <div class="contact">Morowali · yuyunarianiy@gmail.com · 082194869099</div>
+          </div>
+
+          <div class="section">
+            <h3>Profil Singkat</h3>
+            <p class="meta">
+              saya adalah mahasiswi lulusan D3 Rekam Medis Stikes Panakukang Makassar dan saat ini sedang melanjutkan studi D4 MIK di Institut Deli Husada Deli Tua. saat ini saya sedang bekerja di RSUD Salabangkapaku selama kurang lebih 2 Tahun pada bagian analisis dan pelaporan Rekam Medis. Saya bertanggung jawab mengumpulkan data Rekam Medis, mengelolah dan melaporkannya secara berkala ke Dinas Kesehatan setempat dan Kementrian Kesehatan .
+            </p>
+          </div>
+
+          <div class="section">
+            <h3>Keahlian Utama</h3>
+            <div class="skills">
+              <span class="skill">ICD-10 Coding</span>
+              <span class="skill">Pemrosesan Rekam Medis</span>
+              <span class="skill">Manajemen Data Kesehatan</span>
+              <span class="skill">Sistem Informasi Rumah Sakit (SIMRS)</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Analisis dan Pelaporan Data Rakam Medis</span>
+              <span class="skill">Pengarsipan & Filling</span>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pengalaman / Praktik</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2020</div>
+                <div class="desc">
+                  <strong>Praktik Rekam Medis</strong> · Instalasi Rekam Medis RS Membantu pendaftaran pasien rawat jalan dan rawat inap, assembling, analisis kuantitatif &
+                  koding ICD-10.
+                </div>
+              </div>
+              <div class="item">
+                <div class="year">2021</div>
+                <div class="desc">
+                  <strong>Praktik Rekam Medis</strong> · Instalasi Rekam Medis di Puskesmas Membantu pendaftaran pasien, pengarsipan dan filling, menganalisis.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Pendidikan</h3>
+            <div class="timeline">
+              <div class="item">
+                <div class="year">2025 – Sekarang</div>
+                <div class="desc"><strong>D3 / S1 Manajemen Informasi Kesehatan</strong></div>
+              </div>
+            </div>
+          </div>
+
+          <footer>Institut Kesehatan Deli Husada @2025</footer>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      document.getElementById("btn-download").onclick = () => window.print();
+      document.getElementById("btn-portfolio").onclick = () => window.open("#", "_blank");
+      document.getElementById("btn-contact").onclick = () => (window.location.href = "mailto:email@example.com");
+    </script>
+  </body>
+</html>
